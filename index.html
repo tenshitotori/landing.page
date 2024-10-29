@@ -4,8 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mark Joseph Angeles</title>
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+
+  <!--Stylesheets-->
   <link rel="stylesheet" href="styles/normalize-fwd.css">
-	<link rel="stylesheet" href="styles/products.css">
+	<link rel="stylesheet" href="styles/styles.css">
 	<script src="scripts/navigation.js" defer></script>
 </head>
 
@@ -26,9 +33,9 @@
         </button>
 
         <ul class="nav-menu" id="header-menu">
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#Contact">#Contact</a></li>
+          <li><a href="#about-container">About</a></li>
+          <li><a href="#section-portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul> 
 
       </nav>
@@ -37,49 +44,56 @@
 
     <main class="site-main">
 
-      <section class="section-about">
-        <h1>"From Service to Support: A Veteran's Path to Empowering My Hometown through Web Design"</h1>
-        <p>Currently attending the BCIT Front-End Web Development program, I'm building a foundation to create meaningful, user-friendly digital experiences. With a background in both military service and the hospitality industry, my goal is to bring practical skills back to my community, inspiring others through shared knowledge and local impact.</p>
-      </section>
+      <div class="about-container">
+        <img class="about-image" src="images/Rainbow.jpg" alt="Rainbow Viewing Platform in the Sky">
+        <div class="text-column">
+          <h1>From Service to Support: A Journey to Empower My Hometown through Web Design</h1>
+          <p>Currently attending the BCIT Front-End Web Development program, I'm building a foundation to create meaningful, user-friendly digital experiences. With a background in both military service and the hospitality industry, my goal is to bring practical skills back to my community, inspiring others through shared knowledge and local impact.</p>
+        </div>
+      </div>
+          
+      </header>
 
       <section class="section-portfolio">
+
+        <h2>Portfolio</h2>
 
         <div class="portfolio-wrapper">
             <!--html/css, JavaScript, WordPress Sites.Online Stores-->
             <!--Compilations that include Country Website, Business Website, etc., JavaScript Projects that include Games, Databases, and other.., WordPress Websites that include and are not limited to Edmonton, Restaurants, and more., Online Marketplaces utilizing Shopify and WooCommerce.-->
-          <article class="projects">
-            <img class="portfolio-image" src="images/...." alt="Rainbow Viewing Platform in the Sky">
+          <article class="portfolio">
+            <img class="portfolio-image" src="images/compilation.jpg" alt="An artistic space in Mastricht showcasing tiles">
+            <div class="bottom-right">coming soon</div>
             <div class="portfolio-text">
-            <!--make capitalization in ccs-->
-              <h4 class="portfolio-name">Html/Css</h4>
-              <h2 class="portfolio-contents">Compilations that include Country Website, Business Website, etc.</h2>
+              <h5 class="portfolio-name">Html/Css</h4>
+              <h3 class="portfolio-contents">Compilations that include Country Website, Business Website, etc.</h2>
             </div>
           </article>
             
-          <article class="projects">
-            <img class="portfolio-image" src="images/...." alt="..................">
+          <article class="portfolio">
+            <img class="portfolio-image" src="images/javascript.jpg" alt="Columns inside a church in Cordoba">
+            <div class="bottom-right">coming soon</div>
             <div class="portfolio-text">
-            <!--make capitalization in ccs-->
-              <h4 class="portfolio-name">Javascript</h4>
-              <h2 class="portfolio-contents">JavaScript Projects that include Games, Databases, and more..</h2>
+              <h5 class="portfolio-name">Javascript</h4>
+              <h3 class="portfolio-contents">JavaScript Projects that include Games, Databases, and more..</h2>
             </div>
           </article>
 
-          <article class="projects">
-            <img class="portfolio-image" src="images/...." alt="Rainbow Viewing Platform in the Sky">
+          <article class="portfolio">
+            <img class="portfolio-image" src="images/Wordpress.jpg" alt="Beachfront homes in Aveiro">
+            <div class="bottom-right">coming soon</div>
             <div class="portfolio-text">
-            <!--make capitalization in ccs-->
-              <h4 class="portfolio-name">WordPress</h4>
-              <h2 class="portfolio-contents">WordPress Websites that include and are not limited to Edmonton, Restaurants, and other.</h2>
+              <h5 class="portfolio-name">WordPress</h4>
+              <h3 class="portfolio-contents">WordPress Websites that include and are not limited to Edmonton, Restaurants, and other.</h2>
             </div>
           </article>
 
-          <article class="projects">
-            <img class="portfolio-image" src="images/...." alt="Rainbow Viewing Platform in the Sky">
+          <article class="portfolio">
+            <img class="portfolio-image" src="images/marketplace.jpg" alt="Sculptured stucco in an Oratorio in Palermo">
+            <div class="bottom-right">coming soon</div>
             <div class="portfolio-text">
-            <!--make capitalization in ccs-->
-              <h4 class="portfolio-name">Online Stores</h4>
-              <h2 class="portfolio-contents">Online Marketplaces utilizing Shopify and WooCommerce.</h2>
+              <h5 class="portfolio-name">Online Stores</h4>
+              <h3 class="portfolio-contents">Online Marketplaces utilizing Shopify and WooCommerce.</h2>
             </div>
           </article>
 
@@ -87,9 +101,15 @@
 
       </section>
 
+      <h2>Contact</h2>
+      <div class="contact">
+
+      </div>
+
     </main>
 
     <footer class="site-footer">
+      <a href="index.html" class="site-name">-- .--- angeles</a>
       
     </footer>
   </div>
