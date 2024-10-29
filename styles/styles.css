@@ -187,10 +187,8 @@ a.site-name {
 
 h2 {
 	text-align: center;
-}
-
-.contact {
-	position: relative;
+	color: #000000;
+	
 }
 
 /*footer*/
